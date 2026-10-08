@@ -1,0 +1,8 @@
+CONFIGURAR SUPABASE NUEVO PARA CIMARI
+1. Cree un proyecto independiente para CIMARI.
+2. En Project Settings / API copie Project URL y la clave pública anon/publishable.
+3. En SQL Editor ejecute CONFIGURAR_SUPABASE.sql.
+4. En config.js reemplace PON_AQUI_URL_DEL_NUEVO_PROYECTO y PON_AQUI_CLAVE_PUBLICA_NUEVA.
+5. Vuelva a publicar los archivos del ZIP en GitHub Pages y abra el sitio.
+El archivo funciona localmente antes de conectar la nube. No use la URL o clave del proyecto TAESA ni copie una service_role key.
+La tabla cimari_maintenance_records y el bucket cimari-evidencias son propios de este paquete. Las políticas SQL permiten acceso público anon para que el personal pueda operar sin iniciar sesión; comparta el enlace solo con personal autorizado y no cargue información sensible.
