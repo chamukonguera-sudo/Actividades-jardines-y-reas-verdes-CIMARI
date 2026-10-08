@@ -1,0 +1,6 @@
+PUBLICAR EN GITHUB PAGES
+1. Cree un repositorio nuevo.
+2. Descomprima el ZIP y cargue el contenido de la carpeta PWA_Jardines_Areas_Verdes_CIMARI en la raíz del repositorio.
+3. Si usará la nube, configure config.js y ejecute CONFIGURAR_SUPABASE.sql primero.
+4. En Settings > Pages seleccione la rama principal y la carpeta raíz.
+5. Abra el enlace Pages y, en Android Chrome, use menú ⋮ > Instalar aplicación o Añadir a pantalla principal.
